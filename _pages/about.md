@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student. UMass Amherst.
+subtitle: MS/PhD Student, UMass Amherst.
 
 profile:
   align: right
@@ -15,11 +15,9 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-I am a third-year PhD student at the <a href='https://www.cics.umass.edu/'>College of Information and Computer Sciences (CICS)</a> in University of Massachusetts Amherst, advised by <a href='https://people.cs.umass.edu/~dganesan/'>Prof. Deepak K. Ganesan</a>. My research interest broadly are Wireless Communication, Electromagnetics, and 3D Computer Vision. My current research focuses on buidling building real-time AR/VR systems, particularly optimizing them for resource constrained environments, where the main objective is to reduce the latency while preserving a satisfactory visual quality.
+I am a third-year MS/PhD student at the <a href='https://www.cics.umass.edu/'>College of Information and Computer Sciences (CICS)</a> in University of Massachusetts Amherst, advised by <a href='https://people.cs.umass.edu/~dganesan/'>Prof. Deepak K. Ganesan</a>. My research interest broadly include Wireless Communication, Electromagnetics, and 3D Computer Vision. My current research focuses on buidling real-time AR/VR systems, particularly optimizing them for resource constrained environments, with the main objective of reducing latency while preserving a satisfactory visual quality.
 
-Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining the PhD program, I was an exchange student at <a href='https://iitk.ac.in/'>IIT Kanpur</a> from December 2019 to June 2020, where I worked with <a href='https://home.iitk.ac.in/~kvs/phd.php'>Prof. K.V. Srivastava</a> in the field of Metamaterial Absorbers.
