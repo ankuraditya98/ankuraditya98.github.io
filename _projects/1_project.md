@@ -1,46 +1,58 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: CurtainNet
+description: ACM Sensys'23
+img: assets/img/imp1.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Testing if thafter pushing this is on the website?
+Recent trends in flexible antennas and printed circuit boards present an opportunity to leverage deformable substrates such as textiles to deploy large UHF, VHF and ISM band antenna arrays in smart homes. Low-frequency large antenna arrays are rarely deployed in indoor settings due to their large size which makes them bulky and difficult to deploy. By embedding these arrays on existing surfaces such as curtains, we can improve through-wall sensing, beamforming for IoT devices equipped with low-power radios and indoor localization of Bluetooth tags.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+However, antenna arrays on curtains present new challenges since deformation shifts their phase centers and changes the 3D positions of antennas. We present <strong>CurtainNet</strong>, a flexible UHF-band antenna array on a large surface curtain that leverages a combination of optical and RF tracking to compensate for these changes while dealing with occlusions and phase changes. Results show that <strong>CurtainNet</strong> outperforms alternative methods by more than 155% in beamforming performance and increases indoor range by 20m.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/systemflow.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+     CurtainNet Pipeline
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/imp1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/imp3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    
+</div>
+<div class="caption">
+    (a) Our photo-sensing board with patch antenna. (b) Single board evaluation using Qualisys system.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/curtainNet.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    A 2 x 4 array setup on store-bought curtains.
 </div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/imp5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+     Array testing setup in a conference room.
+</div>
+
+
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
