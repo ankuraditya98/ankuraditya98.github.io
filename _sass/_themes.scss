@@ -19,12 +19,7 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.red($black-color)},
-    #{color.green($black-color)},
-    #{color.blue($black-color)},
-    0.4
-  );
+  --global-back-to-top-bg-color: rgba(#{color.red($black-color)}, #{color.green($black-color)}, #{color.blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
