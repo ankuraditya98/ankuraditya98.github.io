@@ -20,3 +20,14 @@ To address this issue, a new class of FSS, known as Frequency Selective Rasorber
 <div class="caption">
    This Figure illustrates the three-dimensional topology of the proposed rasorber. The structure comprises an impedance surface on the top layer, a Frequency Selective Surface (FSS) in the middle layer, and two F4B support substrates with a dielectric constant of 3.5, a loss tangent of 0.003. These layers are separated by an air gap.
 </div>
+
+<strong>Key Take Away from the simulated results:</strong> Absorption rate is greater than 80% in the range of 5.27 GHz to 11.63 GHz for lower absorption band, and 15.35 GHz to 17.11 GHz for upper absorption band as shown in figure. The passpand is between 11.63 GHz and 15.35 GHz, with peak value insertion loss of 0.167 dB.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/rasorber_result.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Simulated response of absorptivity of proposed FSR under normal incidence
+</div>
