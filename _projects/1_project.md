@@ -3,7 +3,7 @@ layout: page
 title: CurtainNet
 description: ACM Sensys'23
 img: assets/img/imp1.jpg
-importance: 1
+importance: 2
 category: work
 related_publications: true
 ---
