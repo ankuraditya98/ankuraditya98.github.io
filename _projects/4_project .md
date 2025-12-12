@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VoluStream - Loss-Resilient Volumetric Video System
+title: VoluStream - Reliable Volumetric Video Streaming System for Videoconferencing
 description: Ongoing work
 img: assets/img/volustream_thumb.png
 importance: 1

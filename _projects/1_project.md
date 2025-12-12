@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CurtainNet
+title: CurtainNet - Enabling precise beamforming with a deformable antenna array on a fabric substrate
 description: ACM Sensys'23
 img: assets/img/imp1.jpg
 importance: 2
