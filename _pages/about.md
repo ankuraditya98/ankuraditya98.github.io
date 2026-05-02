@@ -15,7 +15,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I am a fourth-year MS/PhD candidate at the <a href='https://www.cics.umass.edu/'>College of Information and Computer Sciences (CICS)</a> in University of Massachusetts Amherst, advised by <a href='https://people.cs.umass.edu/~shenoy/'>Prof. Prashant Shenoy</a>. My research interest broadly include Multimedia Systems, 3D Computer Vision and Wireless Communication. My current research focuses on building reliable volumetric video streaming systems for live videoconferencing applications.

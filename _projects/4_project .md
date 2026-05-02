@@ -1,11 +1,12 @@
 ---
 layout: page
-title: VoluStream - Reliable Volumetric Video Streaming System for Videoconferencing
-description: Ongoing work
-img: assets/img/volustream_thumb.png
+title: ReVo - A Cross-Layer Reliable Volumetric Videoconferencing System
+description: Under Review
+img: assets/img/publication_preview/revo_prof.png
 importance: 1
 category: work
 related_publications: false
+redirect: https://umassos.github.io/revo-website/
 ---
 
 <!--
