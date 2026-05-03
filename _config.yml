@@ -14,7 +14,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon_aa.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ankuraditya98.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -196,6 +196,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  blogs:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
@@ -314,7 +317,7 @@ scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
 
-  style: apa
+  style: acm-sig-proceedings
   locale: en
 
   source: /_bibliography/

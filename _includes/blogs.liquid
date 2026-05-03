@@ -1,0 +1,21 @@
+<div class="col">
+  <a href="{{ blog.url | relative_url }}">
+    <div class="card h-100 hoverable">
+      {% if blog.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=blog.img
+          sizes="250px"
+          alt="blog thumbnail"
+          class="card-img-top"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ blog.title }}</h2>
+        <p class="card-text">{{ blog.description }}</p>
+        <p class="text-muted" style="font-size: 0.85rem;">{{ blog.date | date: '%B %d, %Y' }}</p>
+      </div>
+    </div>
+  </a>
+</div>
