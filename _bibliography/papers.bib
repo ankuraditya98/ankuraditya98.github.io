@@ -14,11 +14,32 @@ archivePrefix={arXiv},
 primaryClass={cs.NI},
 url={https://arxiv.org/abs/2604.27441},
 abstract={Volumetric videoconferencing enables immersive six Degrees of Freedom interactions by jointly transmitting visual appearance and 3D geometry. However, delivering volumetric video over today's networks remains challenging due to high bandwidth demands, strict real-time latency constraints, and frequent packet loss. We present ReVo, a loss-resilient volumetric videoconferencing system that jointly recovers RGB and depth content under packet loss while meeting real-time constraints. It decouples volumetric video into RGB and depth streams, selectively protects critical content using network-layer FEC, and reconstructs corrupted non-critical frames using a post-decode neural recovery module. Our evaluations using real-world loss traces show that ReVo improves median SSIM by up to 32% for RGB content and 13% for depth content, and reduces video freezes by up to 95.7% compared to existing techniques.},
-preview={revo_prof.png},
+preview={revo-thumb.png},
 selected={true}
 }
 
 
+@inproceedings{deformrf,
+bibtex_show={true},
+abbr={DeformRF},
+author = {Chen, Xingda and Rastikerdar, Mohammad Mehdi and Aditya, Ankur and Ganesan, Deepak},
+title = {DeformRF: Data-driven Beamforming and Direction Finding with Deformable Antenna Arrays},
+year = {2026},
+isbn = {9798400720277},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3745756.3809238},
+doi = {10.1145/3745756.3809238},
+abstract = {Low-frequency antenna arrays enable obstacle-penetrating communications, but their large physical footprint—a 4x4 array at 150 MHz requires 16 m2—prevents practical deployment. DeformRF enables portable, deformable arrays that compress to backpack-size yet maintain beamforming performance when deployed on flexible substrates. Our key insight is that data-driven methods can predict complex electromagnetic behavior under deformation without real-time simulations. DeformRF combines: (1) a 260,000-sample synthetic dataset mapping deformations to EM characteristics, (2) physics-inspired ML models achieving >94% prediction accuracy on average, and (3) smartphone-based 3D reconstruction requiring no infrastructure. In real-world experiments, DeformRF maintains beamforming gains within 1 dB of optimal despite severe deformation, while baselines degrade by 4-10 dB. For emergency response scenarios, our 4x4 flexible array achieves ±5° direction-finding accuracy when tracking signals through buildings, enabling practical indoor deployment of large low-frequency arrays.},
+booktitle = {Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services},
+pages = {779--791},
+numpages = {13},
+keywords = {beamforming, machine learning, deformable arrays},
+location = {University of Cambridge, Cambridge, United Kingdom},
+series = {MobiSys '26},
+preview={d2rf_thumb.jpeg},
+selected={true}
+}
 @inproceedings{curtainnet,
 bibtex_show={true},
 abbr={CurtainNet},

@@ -5,7 +5,7 @@ description: ACM MobiSys'26
 img: assets/img/d2rf_thumb.jpeg
 importance: 3
 category: work
-related_publications: false
+related_publications: true
 ---
 
 <style>
@@ -198,3 +198,7 @@ and floor removal, followed by RGB color anchoring and clustering, and finally c
 - **Physics-Inspired ML** — Hybrid CNN–ViT model achieving >94% EM prediction accuracy, running in real-time on commodity hardware.
 - **Infrastructure-Free Sensing** — Smartphone-only 3D reconstruction pipeline achieving sub-wavelength deformation accuracy without LiDAR or optical base stations.
 - **End-to-End System** — Integrated beamforming and DOA estimation that maintains performance within 1 dB of optimal under severe deformation.
+
+<!-- ---
+
+This work was published at {% cite deformrf %}. -->

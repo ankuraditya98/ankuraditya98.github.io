@@ -5,7 +5,7 @@ description: ACM Sensys'23
 img: assets/img/imp1.jpg
 importance: 2
 category: work
-related_publications: false
+related_publications: true
 ---
 
 Recent trends in flexible antennas and printed circuit boards present an opportunity to leverage deformable substrates such as textiles to deploy large UHF, VHF and ISM band antenna arrays in smart homes. Low-frequency large antenna arrays are rarely deployed in indoor settings due to their large size which makes them bulky and difficult to deploy. By embedding these arrays on existing surfaces such as curtains, we can improve through-wall sensing, beamforming for IoT devices equipped with low-power radios and indoor localization of Bluetooth tags.
@@ -50,3 +50,5 @@ However, antenna arrays on curtains present new challenges since deformation shi
 <div class="caption">
      <strong>Array testing setup in a conference room.</strong> 
 </div>
+
+<!-- This work was published at {% cite curtainnet %}. -->

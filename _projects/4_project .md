@@ -1,11 +1,11 @@
 ---
 layout: page
 title: ReVo - A Cross-Layer Reliable Volumetric Videoconferencing System
-description: Under Review
-img: assets/img/publication_preview/revo_prof.png
+description: Preprint version avalible on arXiv
+img: assets/img/publication_preview/revo-thumb.png
 importance: 1
 category: work
-related_publications: false
+related_publications: true
 redirect: https://umassos.github.io/revo-website/
 ---
 
@@ -73,3 +73,7 @@ Our prototype is built on a WebRTC system that achieves real-time performance (o
 - **First End-to-End System:** To the best of our knowledge, VoluStream is the first system designed specifically for reliable volumetric video streaming.
 - **Codec-Agnostic Recovery:** A novel client-side neural framework that recovers corrupted RGB and Depth frames, compatible with existing compression codecs.
 - **Real-Time Performance:** A prototype WebRTC implementation demonstrating >30 FPS performance suitable for interactive videoconferencing.
+
+---
+
+This work was published at {% cite aditya2026revocrosslayerreliablevolumetric %}.
